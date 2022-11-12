@@ -14,7 +14,6 @@ private:
 
     int cols;
 
-
 public:
 
     Array2(){
@@ -64,7 +63,6 @@ public:
         
     }
 
-
 };
 
 Array2::Array2(int v1, int v2){
@@ -93,7 +91,7 @@ Array2::~Array2(){
 
 }
 
-/*int main() {
+int main() {
     Array2 a(3,4);
     int i,j;
     for(  i = 0;i < 3; ++i )
@@ -107,6 +105,7 @@ Array2::~Array2(){
         cout << endl;
     }
     cout << "next" << endl;
+
     Array2 b;     b = a;
     for(  i = 0;i < 3; ++i ) {
         for(  j = 0; j < 4; j ++ ) {
@@ -116,4 +115,4 @@ Array2::~Array2(){
     }
     
     return 0;
-}*/
+}
