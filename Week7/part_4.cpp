@@ -203,7 +203,7 @@ int main(){
 
 	std::string space_delimiter = " ";
 
-	std::vector<std::string> words{};
+	std::vector<std::string> words;
 
 	while(std::getline(std::cin, operation)){
 
@@ -249,7 +249,6 @@ int main(){
 		    		words.at(i) = result;
 
 		    		words.erase(words.begin() + (i + 1), words.begin() + (i + 4));
-
 
 	    		}
 	    		else if(op == "find"){
